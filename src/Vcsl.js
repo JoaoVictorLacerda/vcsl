@@ -1,21 +1,21 @@
 
-class SL{
-
-    constructor(){
+class Vcsl{
+    
+     generateKey(){
         try{
-            const data = require('../../../KEY.json')
-            
+            const data =  require('../KEY.json')
+
         }catch(error){
-            const Main = require('./main/Main') 
+            const Main =  require('./main/Main') 
             new Main();
+
         }
     }
     
-    
 
 
-    encrypt(msg){
-        const data = require('../../../KEY.json')
+     encrypt(msg){
+        const data = require('../KEY.json');
         let msgBroken = msg.split('')
         let result ='';
 
@@ -34,7 +34,7 @@ class SL{
     }
 
     decrypt(code){
-        const data = require('../../../KEY.json')
+        const data = require('../KEY.json');
         let codeBroken = code.split(',')
         let result ='';
         for (let index = 0; index <2; index++) {
@@ -52,5 +52,6 @@ class SL{
 
 }
 
-module.exports = new SL();
+
+module.exports = new Vcsl();
 

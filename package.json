@@ -2,9 +2,9 @@
   "name": "vcsl",
   "version": "1.0.0",
   "description": "Projeto útil para criptografia de senhas",
-  "main": "./src/SL.js",
+  "main": "./src/Vcsl.js",
   "scripts": {
-    "start":"node ./src/SL.js"
+    "start":"node ./src/Vcsl.js"
   },
   "keywords": ["encrypt","decrypt","criptografia","descriptografia","SL","Safe Language"],
   "author": "João Victor Lacerda de Queiroz",

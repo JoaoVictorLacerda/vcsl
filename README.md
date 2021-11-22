@@ -13,13 +13,11 @@ Para trabalhar com VCSL basta instalá-lo em seu projeto node.js via npm
 ```jsx
 $ npm install vcsl
 ```
-Após a instalação, importe o projeto para o arquivo que será trabalhado e execute esse código para que o vcsl possa gerar sua chave privada.
-(esse método só precisará ser chamado uma vez)  
+Após a instalação, importe o projeto para o arquivo que será trabalhado e execute esse código para que o vcsl possa gerar sua chave privada.  
 Quando isso acontecer, na estrutura raiz do projeto irá aparecer um arquivo chamado KEY.json
 
 ```jsx
 const vcsl = require('vcsl')
-vcsl.generateKey()
 ```
 Agora com o vcsl instalado e configurado, basta apenas acessar os métodos de criptografia e descriptografia  
 **Para criptografar:**
