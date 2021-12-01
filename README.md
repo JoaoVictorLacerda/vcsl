@@ -77,15 +77,4 @@ A resposta seria algo semelhante a:
 ```jsx
 >> 'abc'
 ```
-# SEGURANÇA
-Existe uma vulnerabilidade nessa idéia que é a capacidade de fazer uma **análise de frequência das letras de combinações**, utilizando estatística.
-A forma mais simples de resolver esse problema foi fazendo a criptografia em dois níveis.  
-Para o usuário, apenas uma criptografia é feita, porém, na realidade a mensagem é criptografada duas vezes.  
-  
-  
-**COMO FUNCIONA?**  
-Imagine o código gerado no exemplo 1.1; basicamente, o algoritmo não para naquele código, ele refaz a criptografia com o código gerado:
-criptografando a criptografia, diga-se assim.  
-A lógica de descriptografia é a mesma, o algoritmo trabalha duas vezes no código recebido.
-
 
